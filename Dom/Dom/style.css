@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    margin-bottom: 10px;
+    box-shadow: 3px 5px 0px black;
+    padding: 10px;
+}
+
+.capa {
+    height: 78vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    text-align: center;
+    background-color: rgb(255, 255, 32);
+    padding: 2rem;
+    position: relative;
+    font-weight: bolder;
+    font-size: 4.5rem;
+}
+
+.curso {
+    margin-top: -32px;
+    width: 30vw;
+    text-align: right;
+    z-index: 1;
+}
+
+.curso p {
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+}
+
+#exercise {
+    background-color: rgb(129, 174, 228);
+    height: 20vh;
+
+}
+
+/* EVENTS */
+
+#eventos {
+    background-color: rgb(215, 199, 206);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#eventos ul {
+    margin: 20px 0px;
+}
+
+#eventos li {
+    list-style-type: none;
+    min-width: 200px;
+    border: 1px dotted #eee;
+    padding: 10px;
+    margin-top: 3px;
+    background-color: deeppink;
+    color: #eee;
+}
+
+#eventos button {
+    padding: 5px 10px;
+    text-align: center;
+}
+
+#eventos h1,
+button {
+    text-align: center;
+}
+
+#moreEvents {
+    background-color: indianred;
+}
+
+/* MORE EVENTS */
+button {
+    margin-bottom: 10px;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    margin: 10px 0;
+    background: #eee;
+    text-align: center;
+    padding: 20px;
+}

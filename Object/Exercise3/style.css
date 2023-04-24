@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    text-align: center;
+    width: 30vw;
+    background-color: rgb(255, 255, 32);
+    padding: 2rem;
+}
+
+.title h1 {
+    font-weight: bolder;
+    font-size: 4rem;
+}
+
+.curso {
+    margin-top: -32px;
+    width: 23vw;
+    text-align: right;
+}
+
+.curso p {
+    font-family: 'Dancing Script', cursive;
+    font-size: 3rem;
+}
